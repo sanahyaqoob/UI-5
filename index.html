@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalistic Aesthetic Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="corner top-left"></div>
+        <div class="corner top-right"></div>
+        <div class="corner bottom-left"></div>
+        <div class="corner bottom-right"></div>
+        
+        <div class="content">
+            <h1>Welcome</h1>
+            <button onclick="connectArConnect()">Connect to ArConnect</button>
+            <p id="wallet-status"></p>
+            <button id="disconnect-button" style="display: none;" onclick="disconnectArConnect()">Disconnect wallet</button>
+            <a href="https://ao.arweave.dev/" target="_blank" class="link-button">Visit AO</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corner {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 3px solid green;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+button, .link-button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+button:hover, .link-button:hover {
+    background-color: darkgreen;
+}
+
+#wallet-status {
+    margin-top: 10px;
+}

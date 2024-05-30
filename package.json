@@ -1,0 +1,15 @@
+{
+    "name": "minimalistic-website",
+    "version": "1.0.0",
+    "description": "A minimalistic website with ArConnect wallet integration",
+    "main": "index.html",
+    "scripts": {
+        "start": "live-server --port=8080"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    },
+    "author": "",
+    "license": "ISC"
+}
