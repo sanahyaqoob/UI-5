@@ -20,6 +20,17 @@
             <button id="disconnect-button" style="display: none;" onclick="disconnectArConnect()">Disconnect wallet</button>
             <a href="https://ao.arweave.dev/" target="_blank" class="link-button">Visit AO</a>
         </div>
+
+        <div id="wallet-info" style="display: none;">
+            <h2>Wallet Information</h2>
+            <label for="process-id">Enter Process ID:</label>
+            <input type="text" id="process-id">
+            <button onclick="openAOSTerminal()">Open AOS Terminal</button>
+        </div>
+
+        <div id="terminal-container" style="display: none;">
+            <iframe id="terminal" width="100%" height="400px"></iframe>
+        </div>
     </div>
 
     <script src="script.js"></script>
